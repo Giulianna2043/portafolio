@@ -2,40 +2,62 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
 	<title>Portafolio</title>
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="iconos/style.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <link rel="stylesheet" href="css/queries.css">
+  
 </head>
 <body>
-<header>
-          
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        MI PORTAFOLIO
-                    </div>
-                    <div class="col-md-9">
-                        <nav>
-                           <ul class="list-inline">
-                               <li><a href="">SOBRE MI</a></li>
-                               <li><a href="">SERVICIOS</a></li>
-                               <li><a href="">MIS TRABAJOS</a></li>
-                               <li><a href="contact.html">CONTACTAME</a></li>
-                           </ul>
-                        </nav>
-                    </div>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3><strong>MI PORTAFOLIO</strong></h3>
                 </div>
+                <div class="col-md-9">
+                 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                        <!-- El logotipo y el icono que despliega el menú se agrupan
+                        para mostrarlos mejor en los dispositivos móviles -->
+                        <div class="container">
+                            <div class=" navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                    <span class="sr-only">Desplegar navegación</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#"><img  class="img-responsive size-logo" ><b>MI PORTAFOLIO</b> </a>
+                            </div><!--cierre de nabvar-header-->
+                            
+                        <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+                        otro elemento que se pueda ocultar al minimizar la barra -->
+                            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="#sobremi">Sobre Mí</a></li>
+                                    <li><a href="#servicios">Servicios</a></li>
+                                    <li><a href="#proyectos">Mis Trabajos</a></li>
+                                    <li><a href="#contactame">Contáctame</a></li>
+                                </ul>
+                            </div><!--cierre de class collapse-->
+                        </div><!--cierre de container-->
+            </nav>
+            
+                </div>
+            </div>
                 <div class="text-center">
-                    <h1>HOLA, MI NOMBRE ES GIULIANNA <br> SOY CODER DE LABORATORIA <br> <hr></h1>
+                    <h1><strong>HOLA, MI NOMBRE ES GIULIANNA <br> SOY CODER DE LABORATORIA <br></strong> <hr></h1>
                     <p>Estas interesado en desarrollar un sitio web o necesitas una frontend developer,yo te puedo ayudar <br> con los diferentes servicos que brindo</p>
                     <span class="label label-warning">CONOCE MÁS</span>
-                    
                 </div> 
-            </div>   
-     </header>
-    <section>     
+        </div>   
+    </header>
+    <section class="hero-section">     
             <div class="header-banner">
                 <div class="container">
                     <h2 class="text-center">SOBRE MI</h2>
@@ -50,42 +72,43 @@
             <div class="container">
                   <h3 class="text-center">SERVICIOS</h3>
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-2">
                         <div class="icon-container">
                             <i class="icon-diamond"></i>
                         </div>
                         <h4 class="text-center"> <strong>Desarrollo de plantillas</strong></h4>
                         <p class="text-center">Desarrollo plantillas a medida<br>con HTML5/CSS3/JS</p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                         <div class="icon-container">
                             <i class="icon-paperplane"></i>
                         </div>
                         <h4 class="text-center"> <strong>Campañas de Mailing</strong></h4>
                         <p class="text-center">Desarrollo de plantillas para<br>campañas por correo</p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                         <div class="icon-container">
                             <i class="icon-news"></i>
                         </div>
                         <h4 class="text-center"> <strong>Full websites</strong></h4>
                         <p class="text-center">Desarrollo websites completos y<br>dinamicos</p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                         <div class="icon-container">
                             <i class="icon-heart"></i>
                         </div>
                         <h4 class="text-center"> <strong>Aplicacione Android</strong></h4>
                         <p class="text-center">Desarrollo aplicaciones Android<br>listas par subir a su tienda</p>
                     </div>
+                    <div class="col-md-2">
+                    </div>
                 </div>
             </div>
         </section>
-        
-        
-        
-        <section>
-           <div class="container">
+         <section>
+           <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-4">
                         <img src="img/1.jpg" class="img-responsive" alt="">
@@ -110,24 +133,29 @@
                 </div>
                 <div class="text-center">
                     <h4 class="text-white">Si quieres saber más de mi proyecto revisa mi github</h4>  
-                    <span class="label label-default">VER MI GITHUB</span> 
+                    <span class="label label-default">  VER MI GITHUB</span> 
                     
                 </div>
             </div>
         </section>
         <footer class="text-center">
-            <h3>CONTÁCTAME</h3>
-            <hr>
-            <p>¿Listo para empezar tu siguiente proyecto?¿Te gusta lo que has visto?genial, dame una llamada o <br>enviame un correo y te responseque pueda !re lo más rápido </p>
-            <div class="iconos">
-                <i class="icon-phone"></i> 
-                <h6>959466819</h6>   
+           <div class="container">
+                <h3>CONTÁCTAME</h3>
+                <hr>
+                <p>¿Listo para empezar tu siguiente proyecto?¿Te gusta lo que has visto?genial, dame una llamada o <br>enviame un correo y te responseque pueda !re lo más rápido </p>
+                <div class="iconos">
+                    <div class="iconos-container">
+                        <div class="col-md-6 col-xs-6">
+                            <i class="icon-phone"></i> 
+                            <p>959466819</p>    
+                        </div>
+                        <div class="col-md-6 col-xs-6">
+                            <i class="icon-mail"></i> <br> 
+                    <p><span>giulianna@laboratoria.la</span></p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="iconos">
-                <i class="icon-mail"></i> 
-                <h6>giulianna@laboratoria.la</h6>   
-            </div>
-            
         </footer>
 </body>
 </html>
