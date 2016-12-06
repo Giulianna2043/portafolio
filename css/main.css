@@ -2,25 +2,20 @@
 *{
     outline: 1px solid pink;
 }
-.nav {
-    padding: 0 20px 0 0;
+header{
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
 }
-.navbar a {
-    color:#fff !important;
-}
-.nav li a:hover, .nav li a:focus {
-    font-weight: bold !important;
-}
-.nav li:hover {
-    font-size:18px;
-    transition:all 0.5s;
-}
-body
-{
-    margin: 0;
-    padding: 0px;
-    font-family: 'EB Garamond', serif;
-}
+header .navbar-inverse{background-color: rgba(0, 0, 0, 0.28);}
+
+
+
+header nav ul li:hover{background-color: #f05f40;}
+.navbar-toggle{background-color:#f05f40;}
+
 hr
 {
     width: 5%;

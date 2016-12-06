@@ -13,31 +13,13 @@
 	{
 		width: 100%;
 	}
-    
-	
-	
-}
-
-
-
-@media screen and (max-width:770px) {
-    
-     .nav li {
-       text-align: center;
-         background-color: rgba(0, 0, 0, 0.7);
-     }
-     .nav li:hover, .nav li:focus {
-         background-color: rgba(188, 188, 188,0.7);
-         color:#fff;
-     }
-     .nav li a:hover {
-         color:#000 !important;
-     }
-     .navbar-header {
-         background-color: rgba(0, 0, 0, 0.7);
-         
+    footer .iconos
+    {
+        
     }
-    .nav {
-     padding: 0;
-     }
+	
+	
 }
+
+
+
