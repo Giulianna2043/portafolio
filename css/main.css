@@ -1,7 +1,5 @@
 /* Tu CSS va aqui */
-*{
-    outline: 1px solid pink;
-}
+
 header{
     background-image: url(../img/header.jpg);
     background-size: cover;
